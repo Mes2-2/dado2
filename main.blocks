@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="BEz(qEFO_u1L4s7BxmwP">Dado</variable></variables><block type="pxt-on-start" id="!.,;DQh.yBF[{Dv$lFP8" x="20" y="20"></block><block type="device_forever" id=";^4%UR6_4~icOIQ|mfcD" x="225" y="20"></block><block type="device_button_event" id="ZoOdf{37(O0JFN+SncS[" x="104" y="206"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_set" id="vp2^oy(Zbq$_D+TDo`cj"><field name="VAR" id="BEz(qEFO_u1L4s7BxmwP">Dado</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="[E0H6ojC90~f_@Ax23v,"><value name="min"><shadow type="math_number" id="[!f/tQREgX1!)5_;Fukk"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="+3bh9b(3}3O@e+UL.SH!"><field name="NUM">6</field></shadow></value></block></value><next><block type="controls_if" id="UGIe7C7M?p_/:Yb3H3%="><mutation elseif="5" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="IU4~Bc:(K9$7lO}guSn{"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="LJeY(}.*8sbRC5.u2%T5"><field name="NUM">1</field></shadow></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="K$c9,(kqU4fd3e[?HAtv"><field name="VAR" id="BEz(qEFO_u1L4s7BxmwP">Dado</field></block></value></block></value><statement name="DO0"><block type="device_show_leds" id="cLs;:[:wkW*-Q$$We~dc"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="d2sL^x}K9seSmQXOgJO,"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="ZIV.$.+lv?=~#@lPA4?$"><field name="NUM">2</field></shadow></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="tY0[X!m8@y+;vA04Pf+{"><field name="VAR" id="BEz(qEFO_u1L4s7BxmwP">Dado</field></block></value></block></value><statement name="DO1"><block type="device_show_leds" id="L#n:gWmx?J/.W:Zuup@K"><field name="LEDS">`
+        # . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . #
+        `</field></block></statement><value name="IF2"><block type="logic_compare" id="*s1@N=:vCwDjNFXlUgU~"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="@Ykm=,d5z*S9Fi{[_g~E"><field name="NUM">3</field></shadow></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="Wb51HWi:K)sq3,a^C*Zy"><field name="VAR" id="BEz(qEFO_u1L4s7BxmwP">Dado</field></block></value></block></value><statement name="DO2"><block type="device_show_leds" id="ojLg|0v5_{AEcWv?yH~|"><field name="LEDS">`
+        # . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . #
+        `</field></block></statement><value name="IF3"><block type="logic_compare" id=")i0~+E7ebfC$Kr:UN/U9"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="NBAB84khWuw%G!;]e,:H"><field name="NUM">4</field></shadow></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="BtL{7hw;qkeA1pJ$].4d"><field name="VAR" id="BEz(qEFO_u1L4s7BxmwP">Dado</field></block></value></block></value><statement name="DO3"><block type="device_show_leds" id="=C7=*)q-vXQuTVcH]fUE"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . #
+        `</field></block></statement><value name="IF4"><block type="logic_compare" id="$cn$g_6@myVLRIcFdY_o"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="Ygo{rmuF`1*)WM])[Jw^"><field name="NUM">5</field></shadow></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="LNM.x:JF?lhdz|#c/}F{"><field name="VAR" id="BEz(qEFO_u1L4s7BxmwP">Dado</field></block></value></block></value><statement name="DO4"><block type="device_show_leds" id="rtsef+8TWLRzBt7zjHN."><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        # . . . #
+        `</field></block></statement><value name="IF5"><block type="logic_compare" id="$[6.Ld7dc0)={hra6(6j"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="B9imepo%ULaGZ3k+KYr["><field name="NUM">6</field></shadow></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="*{/l%18y[%PdJ8TE,eZy"><field name="VAR" id="BEz(qEFO_u1L4s7BxmwP">Dado</field></block></value></block></value><statement name="DO5"><block type="device_show_leds" id="!{@r1il+Bg=A;nj7}l$N"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        # . . . # 
+        . . . . . 
+        # . . . #
+        `</field></block></statement></block></next></block></statement></block><block type="device_button_event" id="dhL)ck:q;mw|OYH-1V|4" x="867" y="1901"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_clear_display" id="K9)AnnYA:~TGM/@de@Gh"></block></statement></block></xml>
